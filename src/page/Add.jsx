@@ -18,8 +18,8 @@ const Add = ({ token }) => {
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
   const [price, setPrice] = useState('')
-  const [category, setCategory] = useState('Men')
-  const [subCategory, setSubCategory] = useState('Topwear')
+  const [category, setCategory] = useState('Nam')
+  const [subCategory, setSubCategory] = useState('Áo')
   const [bestseller, setBestseller] = useState(false)
   const [sizes, setSizes] = useState([])
   const [loading, setLoading] = useState(false)
@@ -196,9 +196,9 @@ const Add = ({ token }) => {
                 value={category}
                 className={`${inputClass} cursor-pointer`}
               >
-                <option value='Men'>Nam</option>
-                <option value='Women'>Nữ</option>
-                <option value='Kids'>Trẻ em</option>
+                <option value='Nam'>Nam</option>
+                <option value='Nữ'>Nữ</option>
+                <option value='Trẻ em'>Trẻ em</option>
               </select>
             </div>
 
@@ -209,9 +209,9 @@ const Add = ({ token }) => {
                 value={subCategory}
                 className={`${inputClass} cursor-pointer`}
               >
-                <option value='Topwear'>Áo</option>
-                <option value='Bottomwear'>Quần</option>
-                <option value='Winterwear'>Đồ mùa đông</option>
+                <option value='Áo'>Áo</option>
+                <option value='Quần'>Quần</option>
+                <option value='Đồ mùa đông'>Đồ mùa đông</option>
               </select>
             </div>
 
